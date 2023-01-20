@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p> my fake address
+    <p> Email Address: my fake email address</p>
+    <p> my fake phone number</p>
+    <hr>
+  <form class="" action="mailto:laura.porsch112@gmail.com" method="post" enctype="text/plain">
+    <!-- action defines what the buttons do, so action=index.html leads to submit takes you back to index page
+        action = mailto:emailaddress leads to opening up the default email account and copy message automatically in email body
+        and email address after mail to as addresse
+        ectype:text/plain so it only takes over text and not signs-->
+    <label> Your Name:</label>
+    <input type="text" name="yourName" value="">
+    <!-- name fields classify the data, when it takes you to default email programm, it shows yourName = input -->
+    <br>
+    <label> Your Email:</label>
+    <input type="email" name="yourEmail" value="">
+    <!-- gives basic validaton, checks for @ sign and that theres something after, and no weird symbols-->
+    <br>
+    <label> Your Message:</label>
+    <br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea>
+    <!-- rows how long textbox is, cols how wide textbox is
+        but user can change it, if more space is needed, developer just sets default-->
+    <br>
+    <input type="submit" name="">
+  </form>
+
+  </body>
+</html>
